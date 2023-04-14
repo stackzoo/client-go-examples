@@ -6,7 +6,7 @@ k8s packages in order to call k8s api server programmatically.
 
 ## Instructions
 As an example you can first launch the deployment creation:
-```sh
+```console
 ❯ go run deployments/create_deployment.go
 
 Deployment created successfully!
@@ -14,7 +14,7 @@ Deployment created successfully!
 <br/>
 
 and then retrieve the pods metrics:
-```sh
+```console
 ❯ go run metrics/pods_metrics.go
 
 SHOWING PODS METRICS
